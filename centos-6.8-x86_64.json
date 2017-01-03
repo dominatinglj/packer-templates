@@ -1,7 +1,7 @@
 {
   "builders": [{
     "type": "vmware-iso",
-    "guest_os_type": "centos-64",
+    "guest_os_type": "linux",
     "iso_url": "{{user `mirror`}}/6.8/isos/x86_64/CentOS-6.8-x86_64-minimal.iso",
     "iso_checksum": "{{user `iso_checksum`}}",
     "iso_checksum_type": "{{user `iso_checksum_type`}}",
